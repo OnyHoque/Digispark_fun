@@ -1,0 +1,11 @@
+https://github.com/OnyHoque/Digispark_fun/blob/master/wallpaper.jpg?raw=true
+
+del %USERPROFILE%\\AppData\\Roaming\\Microsoft\\Windows\\Themes\\TranscodedWallpaper
+
+
+
+powershell.exe in'v'oke-WebRequest 'https://github.com/OnyHoque/Digispark_fun/blob/master/wallpaper.jpg?raw=true' -OutFile '%USERPROFILE%/AppData/Roaming/Microsoft/Windows/Themes/TranscodedWallpaper'
+
+
+copy %USERPROFILE%\AppData\Roaming\Microsoft\Windows\Themes\TranscodedWallpaper %USERPROFILE%\AppData\Roaming\Microsoft\Windows\Themes\CopyOfOriginalWallpaper.jpg
+copy %USERPROFILE%\\AppData\\Roaming\\Microsoft\\Windows\\Themes\\TranscodedWallpaper %USERPROFILE%\\CopyOfOriginalWallpaper.jpg
